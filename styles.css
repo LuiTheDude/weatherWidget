@@ -28,12 +28,16 @@ button[type="submit"]{
     background-color: hsl(122, 36%, 50%);
     color: white;
     border: none;
-    border-radius: 5px;
+    border-radius: 50px;
     cursor: pointer;
+    transition: all 0.3s;
 }
 
 button[type="submit"]:hover{
     background-color: hsl(122, 36%, 40%);
+    box-shadow: 2px 3px 10px black;
+    padding: 12px 25px;
+    margin-left: -10px;
 }
 
 .card {
